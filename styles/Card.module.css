@@ -1,0 +1,20 @@
+.card {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  box-shadow: 0px 2px 8px 1px #bbbbbb;
+}
+
+.zoom {
+  position: absolute !important;
+  width: 500px;
+  height: 500px;
+  transition: 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0 !important;
+  right: 0 !important;
+  top: 30px !important;
+  
+}
